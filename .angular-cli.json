@@ -1,5 +1,13 @@
 {
-  "apps": [{
-    "styles": ["styles.css"]
-  }]
+  "apps": [
+    {
+      "styles": [
+        "styles.css"
+      ],
+      "assets": [
+        "favicon.ico",
+        "assets"
+      ]
+    }
+  ]
 }
