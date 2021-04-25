@@ -14,7 +14,8 @@
       </slide>
     </carousel>
   </div>
-<div class="mx-auto">
+  <div class="h-100">
+    <div class="mx-auto">
     <carousel [showIndicators]="false" *ngIf="slides.length > 0">
       <slide *ngFor="let slide of slides; let index = index" class="mx-auto">
         <div>
@@ -30,4 +31,6 @@
       </slide>
     </carousel>
   </div>
+  </div>
+
   
