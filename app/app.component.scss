@@ -1,0 +1,28 @@
+::ng-deep {
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 2%;
+  }
+  .carousel-control-next,
+  .carousel-control-prev,
+  .carousel-indicators {
+    //filter: invert(100%);
+    content:'';
+  }
+  .carousel-control-next-icon {
+    ::before,
+    ::after {
+      content: "";
+    }
+    background-color: rgb(255, 0, 0) !important;
+    opacity: 10;
+    height: 40px;
+    width: 40px;
+  }
+  .carousel-control-prev-icon {
+    background-color: black !important;
+    content: "" !important;
+    height: 40px;
+    width: 40px;
+  }
+}

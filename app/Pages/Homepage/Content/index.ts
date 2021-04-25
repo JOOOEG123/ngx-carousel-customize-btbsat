@@ -1,0 +1,5 @@
+export * from './AboutUs/about-us.component'
+export * from './ContactUs/contact-us.component'
+export * from './CurrentProgram/current-program.component'
+export * from './DEI-Initiative/dei-initiative.component'
+export * from './Home/Home.component'
