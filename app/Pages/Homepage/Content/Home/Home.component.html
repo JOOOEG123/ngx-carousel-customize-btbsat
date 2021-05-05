@@ -1,4 +1,4 @@
-<div class="mx-auto">
+<div class="mx-auto" style="height:900px">
     <carousel [showIndicators]="false" *ngIf="slides.length > 0">
       <slide *ngFor="let slide of slides; let index = index" class="mx-auto">
         <div>
@@ -13,24 +13,6 @@
         </div>
       </slide>
     </carousel>
-  </div>
-  <div class="h-100">
-    <div class="mx-auto">
-    <carousel [showIndicators]="false" *ngIf="slides.length > 0">
-      <slide *ngFor="let slide of slides; let index = index" class="mx-auto">
-        <div>
-          <img
-            [src]="'https://picsum.photos/id/' + slide + '/2600/500'"
-            class="mx-auto"
-            alt="image slide"
-          />
-          <div class="carousel-caption">
-            <h4 class="bg-primary border rounded-lg">Slide {{ index }}</h4>
-          </div>
-        </div>
-      </slide>
-    </carousel>
-  </div>
   </div>
 
   
