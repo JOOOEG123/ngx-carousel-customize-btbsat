@@ -8,11 +8,11 @@ import { Component } from "@angular/core";
 export class RegisterFormComponent {
   nav = [
     {
-      label: 'Employee',
+      label: 'Register',
       active: true,
     },
     {
-      label: 'Camper',
+      label: 'Camp',
       active: false,
     },
   ]
