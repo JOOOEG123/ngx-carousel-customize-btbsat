@@ -8,7 +8,7 @@ import { Component } from "@angular/core";
 export class RegisterFormComponent {
   nav = [
     {
-      label: 'Register',
+      label: 'Volunteer',
       active: true,
     },
     {
