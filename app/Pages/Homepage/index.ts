@@ -18,6 +18,7 @@ export const HomePageComponents = [
   CurrentProgramComponent,
   ContactUsComponent,
   DEIInitiativeComponent,
+  RegisterFormComponent
 ];
 
 export const HomeRoutes: Routes = [
@@ -33,6 +34,10 @@ export const HomeRoutes: Routes = [
   {
     path: "dei",
     component: DEIInitiativeComponent,
+  },
+  {
+    path: "register",
+    component: RegisterFormComponent,
   },
   {
     path: "AboutUs",

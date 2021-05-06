@@ -6,10 +6,25 @@ import { Component } from "@angular/core";
   styleUrls:['./register-form.component.scss']
 })
 export class RegisterFormComponent {
-  slides = [];
+  nav = [
+    {
+      label: 'Employee',
+      active: true,
+    },
+    {
+      label: 'Camper',
+      active: false,
+    },
+  ]
   ngOnInit() {
-    for (let k = 990; k < 1000; k++) {
-      this.slides.push(k);
+  }
+
+  navClick(data){
+    for(let k of this.nav){
+      k.active = false;
+      if(k.label === data){
+        k.active = true;
+      }
     }
   }
 }
