@@ -16,6 +16,7 @@ export class RegisterFormComponent {
       active: false,
     },
   ]
+  currentTab = this.nav[0]
   ngOnInit() {
   }
 
@@ -24,6 +25,7 @@ export class RegisterFormComponent {
       k.active = false;
       if(k.label === data){
         k.active = true;
+        this.currentTab = k;
       }
     }
   }
