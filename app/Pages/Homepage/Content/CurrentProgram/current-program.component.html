@@ -1,20 +1,24 @@
 <div class="mx-auto" style="height:900px">
-  <carousel [showIndicators]="false" *ngIf="slides.length > 0">
-    <slide *ngFor="let slide of slides; let index = index" class="mx-auto">
-      <div>
-        <img
+  <div>
+    <carousel [showIndicators]="false" *ngIf="slides.length > 0">
+      <slide *ngFor="let slide of slides; let index = index" class="mx-auto">
+        <div>
+          <img
           [src]="'https://picsum.photos/id/' + slide + '/2600/500'"
           class="mx-auto"
           alt="image slide"
         />
-        <div class="carousel-caption">
-          <h4 class="display-1 shadow p-3 mb-5 rounded">Welcome to Camp Blue Ridge</h4>
+          <div class="carousel-caption">
+            <h4 class="display-1 shadow p-3 mb-5 rounded">Welcome to Camp Blue Ridge</h4>
+          </div>
         </div>
-      </div>
-    </slide>
-  </carousel>
+      </slide>
+    </carousel>
+  </div>
+
 
   <div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
-</div>
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"
+      allowfullscreen></iframe>
+  </div>
 </div>
