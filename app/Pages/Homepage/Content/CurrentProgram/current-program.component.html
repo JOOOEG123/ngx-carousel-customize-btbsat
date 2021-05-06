@@ -1,5 +1,5 @@
 <div class="mx-auto" style="height:900px">
-  <div>
+  <div class="mb-3">
     <carousel [showIndicators]="false" *ngIf="slides.length > 0">
       <slide *ngFor="let slide of slides; let index = index" class="mx-auto">
         <div>
@@ -17,15 +17,7 @@
   </div>
 
 
-  <div class="">
-<!-- 
-      <link rel="canonical" href="https://vimeo.com/527425586"></link> -->
-
-      <div class="view">
-        <video class="video-fluid" loop >
-          <source src="https://vimeo.com/527425586" type="video/mp4" />
-        </video>
-        <div class="mask rgba-black-strong"></div>
-      </div>
+  <div class="mx-auto" style="width:400px">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/c_nylo8bIUc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
 </div>
