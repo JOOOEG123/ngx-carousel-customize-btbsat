@@ -1,4 +1,4 @@
-<div class="mx-auto" style="height:900px">
+<div class="mx-auto" style="height:1000px">
   <div class="mb-3">
     <carousel [showIndicators]="false" *ngIf="slides.length > 0">
       <slide *ngFor="let slide of slides; let index = index" class="mx-auto">
@@ -16,8 +16,17 @@
     </carousel>
   </div>
 
+  <div class="row">
+    <div class="col-4"></div>
+    <div class="col-4">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/c_nylo8bIUc" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    </div>
+    <div class="col-4"></div>
+  </div>
 
   <div class="mx-auto" style="width:400px">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/c_nylo8bIUc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
   </div>
 </div>
