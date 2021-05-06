@@ -7,6 +7,7 @@ import {
   CurrentProgramComponent,
   DEIInitiativeComponent,
   HomeComponent,
+  RegisterFormComponent
 } from "./Content";
 
 export const HomePageComponents = [
